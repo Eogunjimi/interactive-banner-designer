@@ -1,5 +1,7 @@
 import { useContext, useState } from "react";
 import { EditorContext } from "../Context/EditorContext";
+import { FaRegEdit } from "react-icons/fa";
+import { IoColorPalette } from "react-icons/io5";
 
 const Default = <img src="/images/emmanuel.jpg" alt="emmanuel" />;
 
@@ -11,7 +13,7 @@ const Editor = () => {
   const { footer, setFooter } = useContext(EditorContext);
   const { color, setColor } = useContext(EditorContext);
 
-  const [selectedImage, setSelectedImage] = useState(Default);
+  //   const [selectedImage, setSelectedImage] = useState(Default);
 
   //   const [image, setImage] = useState(Default);
 
@@ -34,14 +36,19 @@ const Editor = () => {
   //     setColor(newColor);
   //     localStorage.setItem('savedColor', newColor);
   // }
-
   return (
     <>
-      <div className={`h-50 w-[1000px]`}>
-        <form action="">
+      <div className={`h-50 w-[1000px] bg-[#f4f4f4]`}>
+        <div className="p-1"></div>
+
+        <form action="" className="flex justify-between">
           <div>
-          <label>Edit Title</label>
-            <input
+            <div className="flex items-center">
+              <FaRegEdit />
+              <label className="font-semibold">Edit Title</label>
+            </div>
+
+            <textarea
               type="text"
               required
               value={title}
@@ -51,8 +58,12 @@ const Editor = () => {
           </div>
 
           <div>
-          <label>Edit Body</label>
-            <input
+            <div className="flex items-center">
+              <FaRegEdit />
+              <label className="font-semibold">Edit Body</label>
+            </div>
+
+            <textarea
               type="text"
               required
               value={body}
@@ -62,8 +73,11 @@ const Editor = () => {
           </div>
 
           <div>
-          <label>Edit Footer</label>
-            <input
+            <div className="flex items-center">
+              <FaRegEdit />
+              <label className="font-semibold">Edit Footer</label>
+            </div>
+            <textarea
               type="text"
               required
               value={footer}
@@ -71,17 +85,22 @@ const Editor = () => {
               className="border-1"
             />
           </div>
-         
 
-          <br />
-          <label>Color</label>
-          <input
-            type="color"
-            required
-            value={color}
-            // onChange={handleColorChange}
-            onChange={(e) => setColor(e.target.value)}
-          />
+          <div className="">
+            <div className="flex items-center">
+              <IoColorPalette />
+              <label className="font-semibold">Pick Bg Color</label>
+            </div>
+
+            <input
+              type="color"
+              required
+              value={color}
+              // onChange={handleColorChange}
+              onChange={(e) => setColor(e.target.value)}
+              className="cursor-pointer"
+            />
+          </div>
         </form>
 
         {/* <div>
@@ -93,11 +112,8 @@ const Editor = () => {
         {image} */}
 
         {/* <div>{selectedImage}</div> */}
-
-        <br />
-
         {/* Input element to select an image file */}
-        <input
+        {/* <input
           type="file"
           name="myImage"
           // Event handler to capture file selection and update the state
@@ -105,7 +121,7 @@ const Editor = () => {
             console.log(event.target.files[0]); // Log the selected file
             setSelectedImage(event.target.files[[]]); // Update the state with the selected file
           }}
-        />
+        /> */}
       </div>
     </>
   );
