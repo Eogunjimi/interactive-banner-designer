@@ -57,7 +57,7 @@ const Editor = () => {
               required
               value={title}
               onChange={(e) => setTitle(e.target.value)}
-              className="border-1"
+              className="border-1 rounded-sm"
             />
           </div>
 
@@ -72,7 +72,7 @@ const Editor = () => {
               required
               value={body}
               onChange={(e) => setBody(e.target.value)}
-              className="border-1"
+              className="border-1 rounded-sm"
             />
           </div>
 
@@ -86,7 +86,7 @@ const Editor = () => {
               required
               value={footer}
               onChange={(e) => setFooter(e.target.value)}
-              className="border-1"
+              className="border-1 rounded-sm"
             />
           </div>
 
@@ -102,7 +102,7 @@ const Editor = () => {
               value={color}
               // onChange={handleColorChange}
               onChange={(e) => setColor(e.target.value)}
-              className="cursor-pointer"
+              className="cursor-pointer rounded-sm"
             />
           </div>
         </form>
