@@ -7,11 +7,16 @@ const Dashboard = () => {
   return (
     <div className="bg-[#f4f4f4]">
       <Navbar />
-      <Pagetitle/>
+      
 
-       <div>
-        <Banner />
-        <Editor/>
+       <div className="flex">
+         <Editor/> 
+
+         <div>
+          <Pagetitle/>
+           <Banner />
+         </div>
+        
       </div>
     </div>
   );

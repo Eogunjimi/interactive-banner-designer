@@ -2,6 +2,8 @@ import { useContext, useState } from "react";
 import { EditorContext } from "../Context/EditorContext";
 import { FaRegEdit } from "react-icons/fa";
 import { IoColorPalette } from "react-icons/io5";
+import { FiSettings } from "react-icons/fi";
+
 
 const Default = <img src="/images/emmanuel.jpg" alt="emmanuel" />;
 
@@ -38,10 +40,12 @@ const Editor = () => {
   // }
   return (
     <>
-      <div className={`h-50 w-[1000px] bg-[#f4f4f4]`}>
-        <div className="p-1"></div>
+      <div className={`h-50  bg-[#f4f4f4] px-2`}>
+        <div className="h-8 bg-white rounded-sm my-2 pt-2 pl-3">
+        <FiSettings/>
+        </div>
 
-        <form action="" className="flex justify-between">
+        <form action="" className=" justify-between">
           <div>
             <div className="flex items-center">
               <FaRegEdit />

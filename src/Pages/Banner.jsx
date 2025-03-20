@@ -16,7 +16,7 @@ const {footer} = useContext(EditorContext)
   
     return (
       <>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center px-5 h-[400px]  ">
           {/* Main Content */}
           <div className="flex justify-center items-center" style={{ backgroundColor: color }}>
             <div>
@@ -30,12 +30,12 @@ const {footer} = useContext(EditorContext)
                   {title}
                 </h1>
                 {/* Main Content */}
-                <p className="text-center font-semibold mt-10 ">
+                <p className="text-center font-semibold mt-10 px-5">
                  {body}
                 </p>
               </div>
               {/* Footer */}
-              <div className="mt-10">
+              <div className="mt-15">
                 <p className="text-center text-sm font-semibold">{footer}</p>
               </div>
             </div>
