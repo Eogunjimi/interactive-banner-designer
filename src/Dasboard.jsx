@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar";
 import Pagetitle from "./Components/Pagetitle";
+import Sidebar from "./Pages/Sidebar";
 import Banner from "./Pages/Banner";
 import Editor from "./Pages/Editor";
 
@@ -10,7 +11,8 @@ const Dashboard = () => {
       
 
        <div className="flex">
-         <Editor/> 
+         {/* <Editor/>  */}
+         <Sidebar/>
 
          <div>
           <Pagetitle/>
