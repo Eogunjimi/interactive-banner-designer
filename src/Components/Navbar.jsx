@@ -4,7 +4,7 @@ import { SiAnycubic } from "react-icons/si";
 const Navbar = () => {
   return (
     <>
-      <div className="flex justify-between items-center px-10 bg-white h-10 my-1 mx-1 rounded-sm">
+      <div className="flex justify-between items-center px-10 bg-white h-10 my- mx- rounded-sm">
         <div>
           <SiAnycubic />
         </div>
