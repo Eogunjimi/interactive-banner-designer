@@ -2,6 +2,7 @@
 import './index.css'
 import App from './App.jsx'
 import EditorContextProvider from './Context/EditorContext.jsx'
+import TestPage from './TestPage.jsx'
 
 
 createRoot(document.getElementById('root')).render(

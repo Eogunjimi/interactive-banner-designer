@@ -40,7 +40,7 @@ const Editor = () => {
   // }
   return (
     <>
-      <div className={`h-50  bg-[#f4f4f4] px-2`}>
+      <div className={`h-full   bg-[#f4f4f4] px-2`}>
         <div className="h-8 bg-white rounded-sm my-2 pt-2 pl-3">
         <FiSettings/>
         </div>

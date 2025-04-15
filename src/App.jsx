@@ -3,10 +3,13 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>
+    <div className='fixed w-full overflow-hidden'>
      <Dashboard/>
     </div>
   )
 }
 
 export default App
+
+
+// overflow-hidden

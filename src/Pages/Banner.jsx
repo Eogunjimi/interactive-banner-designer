@@ -1,6 +1,7 @@
 import { FaQuoteLeft } from "react-icons/fa";
 import {useContext} from "react"
 import { EditorContext } from "../Context/EditorContext"
+import Pagetitle from "../Components/Pagetitle";
 
 const Banner = ( ) => {
 
@@ -11,12 +12,11 @@ const {color} = useContext(EditorContext);
 const {body} = useContext(EditorContext);
 const {footer} = useContext(EditorContext)
 
-
-  
   
     return (
       <>
-        <div className="flex justify-center items-center px-5 h-[400px]  ">
+      <div className=" mr-10 h-full w-full"> 
+        <div className="flex justify-center items-center  h-[400px]  ">
           {/* Main Content */}
           <div className="flex justify-center items-center" style={{ backgroundColor: color }}>
             <div>
@@ -41,11 +41,12 @@ const {footer} = useContext(EditorContext)
             </div>
             {/* Image */}
             <img
-              src="images/emmanuel.jpg"
+              src="images/dev.jpg"
               alt="Emmanuel"
               className="h-[400px] w-[380px] "
             />
           </div>
+        </div>
         </div>
       </>
     );

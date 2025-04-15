@@ -9,12 +9,12 @@ const BackgroundEditor = () => {
 
     return (
         <>
-            <div className="">
+            <div className="flex items-center">
                 <div className="flex items-center">
                     <IoColorPalette />
-                    <label className="font-semibold">Pick Bg Color</label>
+                    <label className="">Pick Colour:    </label>
                 </div>
-
+                   
                 <input
                     type="color"
                     required
