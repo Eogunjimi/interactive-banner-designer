@@ -1,7 +1,7 @@
 import { FaQuoteLeft } from "react-icons/fa";
 import {useContext} from "react"
 import { EditorContext } from "../Context/EditorContext"
-import Pagetitle from "../Components/Pagetitle";
+// import Pagetitle from "../Components/Pagetitle";
 
 const Banner = ( ) => {
 

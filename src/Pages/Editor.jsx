@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext} from "react";
 import { EditorContext } from "../Context/EditorContext";
 import { FaRegEdit } from "react-icons/fa";
 import { IoColorPalette } from "react-icons/io5";

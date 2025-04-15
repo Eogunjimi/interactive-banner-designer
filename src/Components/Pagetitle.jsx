@@ -1,6 +1,4 @@
 import { FiAlertCircle } from "react-icons/fi";
-import { BsTag } from "react-icons/bs";
-import { IoIosArrowForward } from "react-icons/io";
 
 
 

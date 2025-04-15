@@ -1,10 +1,9 @@
 import Navbar from "./Components/Navbar";
 import Pagetitle from "./Components/Pagetitle";
-import Sidebar from "./Pages/Sidebar";
 import Banner from "./Pages/Banner";
 import Editor from "./Pages/Editor";
-import TestBanner from "./Pages/TestBanner";
-import ColorAndfonts from "./Components/ColorAndfonts";
+// import TestBanner from "./Pages/TestBanner";
+ 
 // import BannerPro from "./Pages/BannerPro";
 
 // bg-[#f4f4f4]
@@ -17,14 +16,14 @@ const Dashboard = () => {
 
        <div className="flex justify-between mx- h-full">
          <Editor/> 
-         {/* <Sidebar/> */}
+         
 
          <div className="w-full bg-[#f4f4f4]" >
           <Pagetitle/>
-           {/* <ColorAndfonts/> */}
+           
            <Banner />
            {/* <TestBanner/> */}
-           {/* <BannerPro/> */}
+            
          </div>
         
       </div>
