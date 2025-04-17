@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar";
 import Pagetitle from "./Components/Pagetitle";
+import NewAds from "./NewAds";
 import Banner from "./Pages/Banner";
 import Editor from "./Pages/Editor";
 // import TestBanner from "./Pages/TestBanner";
@@ -22,6 +23,7 @@ const Dashboard = () => {
           <Pagetitle/>
            
            <Banner />
+           {/* <NewAds/> */}
            {/* <TestBanner/> */}
             
          </div>
