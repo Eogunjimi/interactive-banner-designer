@@ -19,10 +19,10 @@ Tired of complex banner creation processes? The Interactive Banner Design App st
 
 ## Technologies Used
 
-* [![React JS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/) React JS
-* [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) Tailwind CSS
-* [![Vitest](https://vitest.dev/logo.svg)](https://vitest.dev/) Vitest
-* [![Vite](https://vitejs.dev/logo.svg)](https://vitejs.dev/) Vite
+* [React JS](https://react.dev/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Vitest](https://vitest.dev/)
+* [Vite](https://vitejs.dev/)
 
 
 
