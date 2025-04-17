@@ -12,7 +12,7 @@ const Editor = () => {
 
   const { title, setTitle } = useContext(EditorContext);
   const { body, setBody } = useContext(EditorContext);
-  const { footer, setFooter } = useContext(EditorContext);
+  const { button, setButton } = useContext(EditorContext);
   const { color, setColor } = useContext(EditorContext);
 
   //   const [selectedImage, setSelectedImage] = useState(Default);
@@ -40,7 +40,7 @@ const Editor = () => {
   // }
   return (
     <>
-      <div className={`h-full   bg-[#f4f4f4] px-2`}>
+      <div className={`h-full   bg-[#f4f4f4] px-2 w-[300px]`}>
         <div className="h-8 bg-white rounded-sm my-2 pt-2 pl-3">
         <FiSettings/>
         </div>
@@ -57,7 +57,7 @@ const Editor = () => {
               required
               value={title}
               onChange={(e) => setTitle(e.target.value)}
-              className="border-1 rounded-sm"
+              className="border-1 rounded-sm w-[220px]"
             />
           </div>
 
@@ -72,7 +72,7 @@ const Editor = () => {
               required
               value={body}
               onChange={(e) => setBody(e.target.value)}
-              className="border-1 rounded-sm"
+              className="border-1 rounded-sm w-[220px]"
             />
           </div>
 
@@ -84,9 +84,9 @@ const Editor = () => {
             <textarea
               type="text"
               required
-              value={footer}
-              onChange={(e) => setFooter(e.target.value)}
-              className="border-1 rounded-sm"
+              value={button}
+              onChange={(e) => setButton(e.target.value)}
+              className="border-1 rounded-sm w-[220px]"
             />
           </div>
 

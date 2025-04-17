@@ -3,52 +3,51 @@ import { useContext } from "react"
 import { EditorContext } from "../Context/EditorContext"
 
 const Banner = () => {
-  const { color, body, footer, title } = useContext(EditorContext);
+  const { color, body, button, title } = useContext(EditorContext);
 
   return (
     <>  
-      <div data-testid='campaign-banner' className=" mr-10 h-full w-full">
-        <div className="flex justify-center items-center  h-[400px]  ">
-          {/* Main Content */}
-          <div className="flex justify-center items-center" style={{ backgroundColor: color }}>
-            <div>
-              {/* logo */}
-              <div className="flex justify-center items-center">
-                <FaQuoteLeft />
-              </div>
-              <div className="mt-10 ">
+      <div className='flex justify-center items-center h-full' data-testid='campaign-banner'>
 
-                {/* Header */}
-                <h1 className="text-center font-bold text-4xl">
-                  {title}
-                </h1>
+<div className='lg:h-50 h-35  w-[410px] lg:w-[600px] flex justify-center items-center px-1.5 border-2 border-amber-50' style={{ backgroundColor: color }}>
+  
+{/* The Title Side */}
+  <div className='h-35 lg:h-50 w-[200px]  border-l-2 border-amber-50 flex justify-center items-center'>
+    <h1 className='text-3xl text-center'>
+    {title}
+    </h1>
+  </div>
 
-                {/* Main Content */}
-                <p className="text-center font-semibold mt-10 px-5">
-                  {body}
-                </p>
-              </div>
+{/* Banner Image */}
+  <img
+    src="images/keyboard.jpg"
+    alt="keyboard"
+    className='lg:h-50 h-35 block lg:w-[200px] w-[90px] mx-2'
+  />
 
-              {/* Footer */}
-              <div className="mt-15">
-                <p className="text-center text-sm font-semibold">{footer}</p>
-              </div>
-            </div>
-            {/* Image */}
-            <img
-              src="images/dev.jpg"
-              alt="Emmanuel"
-              className="h-[400px] w-[380px] "
-            />
-            {/* TRYING TO CREATE THE IMAGE UPLOADER THING */}
-            <div>
+{/*The Body Side*/}
+  <div className='h-35 lg:h-50 w-[200px] border-r-2 border-amber-50 flex flex-col justify-center items-center'>
+    <div className='max-w-36'>
+      <p className='text-xs'>
+      {body}
+      </p>
+    </div>
 
-            </div>
-          </div>
-        </div>
-      </div>
+{/* The Button */}
+    <button
+      className='text-[#FFFFFF] bg-[#333333] text-xs mt-3  lg:mt-5 py-2  px-7  rounded-full'>
+      {button}
+    </button>
+    
+  </div>
+</div>
+
+</div>
     </>
   );
 };
 
 export default Banner;
+
+
+ 
