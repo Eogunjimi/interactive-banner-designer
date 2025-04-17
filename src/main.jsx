@@ -2,9 +2,14 @@
 import './index.css'
 import App from './App.jsx'
 import EditorContextProvider from './Context/EditorContext.jsx'
+import ImageUploader from './ImageUploader.jsx'
 
 createRoot(document.getElementById('root')).render(
    <EditorContextProvider>
     <App />
    </EditorContextProvider>
 )
+
+
+
+{/* <ImageUploader/> */}

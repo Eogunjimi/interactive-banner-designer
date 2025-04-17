@@ -93,7 +93,7 @@ const Editor = () => {
           <div className="">
             <div className="flex items-center">
               <IoColorPalette />
-              <label className="font-semibold">Pick Bg Color</label>
+              <label className="font-semibold">Change BG Color</label>
             </div>
 
             <input
@@ -102,7 +102,7 @@ const Editor = () => {
               value={color}
               // onChange={handleColorChange}
               onChange={(e) => setColor(e.target.value)}
-              className="cursor-pointer rounded-sm"
+              className="cursor-pointer rounded-sm  bg-gray-600"
             />
           </div>
         </form>
