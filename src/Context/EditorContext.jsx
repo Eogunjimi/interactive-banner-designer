@@ -1,6 +1,11 @@
 import { createContext, useState } from "react";
 
-export const EditorContext = createContext();
+export const EditorContext = createContext({
+    title: 'defaultTitle',
+    color: 'defaultColor',
+    footer: 'defaultFooter',
+     body: 'defaultBody'
+});
 
 const EditorContextProvider = (props) => {
 
