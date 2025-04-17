@@ -15,12 +15,16 @@ Tired of complex banner creation processes? The Interactive Banner Design App st
 3.  **Text Color Control:** Customize the color of the text on the banner.
 4.  **Click and Change Image:** Simply click on the banner image in the preview to select and update it.
 
+ 
+
 ## Technologies Used
 
-* [React JS](https://react.dev/)
-* [Tailwind CSS](https://tailwindcss.com/)
-* [Vitest](https://vitest.dev/)
-* [Vite](https://vitejs.dev/)
+* [![React JS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/) React JS
+* [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) Tailwind CSS
+* [![Vitest](https://vitest.dev/logo.svg)](https://vitest.dev/) Vitest
+* [![Vite](https://vitejs.dev/logo.svg)](https://vitejs.dev/) Vite
+
+
 
 ## Installation Instructions
 
@@ -88,11 +92,4 @@ We warmly welcome contributions to the Interactive Banner Design App! If you're 
 6.  **Submit a Pull Request:** Navigate to the original project repository on GitHub and click the "New Pull Request" button. Ensure your pull request clearly describes the changes you've made and references any relevant issues.
 
 We appreciate your contributions and will review your pull request as soon as possible.
-
-## License
-
-[*(Add your project's license here, e.g., MIT License)*](LICENSE)
-
-## Credits and Acknowledgements
-
-*(Optional: Add any acknowledgements or credits to individuals or resources here)*
+ 
