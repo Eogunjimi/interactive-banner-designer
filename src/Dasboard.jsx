@@ -1,3 +1,4 @@
+import FontSettings from "./Components/FontSettings";
 import Navbar from "./Components/Navbar";
 import Pagetitle from "./Components/Pagetitle";
 import Banner from "./Pages/Banner";
@@ -13,6 +14,7 @@ const Dashboard = () => {
           <Editor />
           <div className="w-full bg-[#f4f4f4]" > 
             <Pagetitle />
+            <FontSettings/>
             <Banner />
           </div>
         </div>

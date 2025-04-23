@@ -3,18 +3,15 @@ import './index.css'
 import App from './App.jsx'
 import EditorContextProvider from './Context/EditorContext.jsx'
  
- 
 
 createRoot(document.getElementById('root')).render(
-
-<EditorContextProvider>
+ 
+  <EditorContextProvider>
    <App />
-</EditorContextProvider>
-
+</EditorContextProvider> 
 )
 
 
 
-{/* <ImageUploader/> */} 
-
+  
  
