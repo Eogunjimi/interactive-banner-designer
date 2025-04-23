@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <>  
       <div className='flex justify-center items-center 
-      h-full' data-testid='campaign-banner'>
+      h-[500px] ' data-testid='campaign-banner'>
 
 <div className='lg:h-50 h-35  w-[410px] lg:w-[600px] 
 flex justify-center items-center px-1.5 border-2

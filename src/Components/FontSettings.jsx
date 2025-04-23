@@ -5,9 +5,9 @@ import { BiFontFamily } from "react-icons/bi";
 
 const FontSettings = () => {
   return (
-    <div className='w-full'>
+    <div className='w-[400px] bg-white h-8'>
          {/* font color, size, style */}
-            <div className="flex items-center justify-between w-[100px]">
+            <div className="flex items-center justify-between w-[100px]  ">
       
               <span className="flex items-center">
                  <BiFontColor />
